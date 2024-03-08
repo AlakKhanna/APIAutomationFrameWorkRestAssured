@@ -5,16 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de9f4711-d1ab-47e7-aa2e-9e4bbd117e31" name="Changes" comment="Intial Project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/EndPoints/APIConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Booking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/BookingResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Bookingdates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Actions/AssertActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/TCCreateBooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/e2e/TC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/utils/UtilExcel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Request/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/INT/TC_Integration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/TC_CreateBooking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/EndPoints/APIConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/EndPoints/APIConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Modules/PayloadManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Request/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/BookingResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Response/BookingResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Bookingdates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Payload/pojos/Request/Bookingdates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/base/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tests/crud/TCCreateBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/UtilExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/utils/UtilExcel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/TestData.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/resource/TestData.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,21 +52,121 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.APIAutomationFrameWorkRestAssured [clean].executor": "Run",
+    "Maven.APIAutomationFrameWorkRestAssured [install].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/src/test/testngXMLs/testng_crud_post.xml.executor": "Run",
+    "TestNG./Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/testng.xml.executor": "Run",
+    "TestNG.TC_CreateBooking.executor": "Run",
+    "TestNG.TC_Integration.TestCreateBooking.executor": "Run",
+    "TestNG.TC_Integration.executor": "Run",
+    "TestNG.TC_Integration.testCreateAndUpdateBooking.executor": "Run",
+    "TestNG.TC_Integration.testDeleteCreatedBooking.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/src/main/java/org/example/Payload"
+    "last_opened_file_path": "/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/src/test/resource"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resource" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/Payload" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/test/testngXMLs" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.utils" />
     </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC_Integration.testCreateAndUpdateBooking">
+    <configuration name="TC_Integration.TestCreateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameWorkRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.crud.INT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.crud.INT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.crud.INT.TC_Integration" />
+      <option name="METHOD_NAME" value="TestCreateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration.testCreateAndUpdateBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameWorkRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.crud.INT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.crud.INT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.crud.INT.TC_Integration" />
+      <option name="METHOD_NAME" value="testCreateAndUpdateBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC_Integration.testDeleteCreatedBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameWorkRestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tests.crud.INT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tests.crud.INT" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tests.crud.INT.TC_Integration" />
+      <option name="METHOD_NAME" value="testDeleteCreatedBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/src/test/testngXMLs/testng_crud_post.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameWorkRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/testngXMLs/testng_crud_post.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="APIAutomationFrameWorkRestAssured" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC_Integration.testCreateAndUpdateBooking" />
+        <item itemvalue="TestNG.TC_Integration.testDeleteCreatedBooking" />
+        <item itemvalue="TestNG.TC_Integration.TestCreateBooking" />
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/testng.xml" />
+        <item itemvalue="TestNG./Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured/src/test/testngXMLs/testng_crud_post.xml" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

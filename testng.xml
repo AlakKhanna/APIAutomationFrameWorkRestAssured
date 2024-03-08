@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured">
+        <classes>
+            <class name="org.example.tests.crud.INT.TC_Integration">
+                <methods>
+                    <include name="gettoken"/>
+                    <include name="TestCreateBooking"/>
+                    <include name="testCreateAndUpdateBooking"/>
+                    <include name="testDeleteCreatedBooking"/>
+                </methods>
+            </class>
+            <class name="org.example.tests.crud.TC_CreateBooking">
+                <methods>
+                    <include name="testpositivePOSTreq"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

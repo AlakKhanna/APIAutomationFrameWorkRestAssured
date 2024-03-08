@@ -1,4 +1,4 @@
-package org.example.Payload.pojos;
+package org.example.Payload.pojos.Request;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

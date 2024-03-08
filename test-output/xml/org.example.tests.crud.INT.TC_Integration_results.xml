@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="APIAutomationFrameWorkRestAssured"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.044">
+    <properties></properties>
+
+
+
+            <testcase
+                name="testCreateAndUpdateBooking"
+                time="0.001"
+                classname="org.example.tests.crud.INT.TC_Integration">
+            </testcase>
+            <testcase
+                name="TestCreateBooking"
+                time="0.043"
+                classname="org.example.tests.crud.INT.TC_Integration">
+            </testcase>
+</testsuite>

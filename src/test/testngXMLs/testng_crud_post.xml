@@ -1,2 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="/Users/alak/IdeaProjects/APIAutomationFrameWorkRestAssured"><classes/></test></suite>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/APIAutomationFrameWorkRestAssured">
+        <packages>
+            <package name="org.example.tests.crud.INT.*">
+            </package>
+        </packages>
+                <groups>
+                    <run>
+                        <include name="PO"/>
+                    </run>
+                </groups>
+    </test>
+</suite>
